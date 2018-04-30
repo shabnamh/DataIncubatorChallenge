@@ -1,6 +1,6 @@
 #Question 3 - Second Plot
 
-#Second plot is going show the percentage delay per month of the busiest airports in USA with over 100,000 
+#Second plot is going to show the percentage delay per month of the busiest airports in USA with over 100,000 
 #domestic flights in 2017 with the most arrival delay.
 
 library(dplyr)

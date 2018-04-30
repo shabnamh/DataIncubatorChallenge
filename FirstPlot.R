@@ -22,8 +22,8 @@ Fi11 <- read.csv("Nov.csv")
 Fi12 <- read.csv("Dec.csv")
 dat <- rbind(Fi1, Fi2, Fi3, Fi4, Fi5, Fi6, Fi7, Fi8, Fi9, Fi10, Fi11, Fi12)
 
-# I am considering Atlanta,GA (airport code ATL) for the connection since it is one of the most frequent flight at GSP.
-# Therefore, I am considering DELTA AIRLINES, since its hub is at Atlanta and is the most frequent airline.
+# I am considering Atlanta,GA (airport code ATL) for the connection since it has frequent flights from GSP.
+# Therefore, I am considering DELTA Airlines, since its hub is at Atlanta airport and has the most frequent flights there.
 
 sub3 <- subset(dat, ORIGIN == "GSP" & DEST == "ATL" )  
 sub4 <- subset(dat, ORIGIN == "ATL" & DEST == "SFO" )

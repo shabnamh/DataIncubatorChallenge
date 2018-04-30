@@ -1,0 +1,21 @@
+---
+title: "Description of the Plots"
+author: "Shabnam"
+date: '2018-04-30'
+output: html_document
+---
+#### Data
+The data is gathered from the Bureau of Transportation Statistics based on the months of the year. For analysis purposes, I combind them using rbind technique. 
+
+#### First Plot 
+This plot shows the  number of missed early morning connections while flying from Greenville, SC to San francisco, CA due to delay of the first flight. 
+I considered Atlanta,GA for the connection since it has frequent flights from GSP.
+Therefore, I considered DELTA Airlines, since its hub is at Atlanta airport and has the most frequent flights there.
+
+I looked at the early morning flights 5:00 to 6:45am from Greenville to Atlanta connecting to 7:30 to 9:00 from Atlanta to San Francisco. I chose Atlanta since it is the most frequent destination of the flights from Greenville and Delta airline since has the most frequent flights to/from Atlanta.
+As a result, I got 7 delays in 2017 that caused missing connection. I have shown the result in a Pie chart.
+
+#### Second Plot
+This plot shows the percentage delay per month of the busiest airports in USA with over 100,000 domestic flights in 2017 with the most arrival delay.
+I looked at the busiest airports in USA with over 100,000 domestic flights in 2017 and determined the ones with the most arrival delay. As the result, I got 19 airports. I have shown the percentage delay per month of each airport over the whole year in a Bar chart.
+
